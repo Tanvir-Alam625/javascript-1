@@ -12,6 +12,15 @@ function findSmallestAge(number) {
     }    
     return smallest;
 }
+var sentence = "I am hardworking. I am determined. I will be a web developer.";
+var count = 0;
+for(var i = 0; i < sentence.length; i++){
+  var letter = sentence[i];
+  if(letter == 'i'){
+    count++;
+  }
+}
+console.log(count)
 // function call    
 var children = findSmallestAge(ages);
 console.log(children);
